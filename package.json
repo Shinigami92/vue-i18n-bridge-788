@@ -1,0 +1,30 @@
+{
+  "name": "vue-i18n-bridge-788",
+  "version": "1.0.0",
+  "description": "vue-i18n-bridge-788",
+  "private": true,
+  "scripts": {
+    "clean": "rimraf yarn.lock dist node_modules",
+    "build": "vue-tsc --noEmit && vite build",
+    "check:ts": "vue-tsc --noEmit",
+    "preview": "vite preview",
+    "serve": "vite"
+  },
+  "dependencies": {
+    "@vue/composition-api": "~1.4.0",
+    "vue": "~2.6.14",
+    "vue-i18n": "~8.26.7",
+    "vue-i18n-bridge": "~9.2.0-beta.18"
+  },
+  "devDependencies": {
+    "@types/node": "~16.11.7",
+    "@vue/runtime-core": "~3.2.22",
+    "@vue/runtime-dom": "~3.2.22",
+    "rimraf": "~3.0.2",
+    "typescript": "~4.4.4",
+    "vite": "~2.6.14",
+    "vite-plugin-vue2": "~1.9.0",
+    "vue-template-compiler": "~2.6.14",
+    "vue-tsc": "~0.29.5"
+  }
+}
